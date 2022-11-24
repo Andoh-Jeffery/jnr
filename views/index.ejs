@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+
+            <form action="/paystack/pay" method="POST" class="form-group">
+              <label for="email">email</label>
+              <input type="email" class="form-control"/><br>
+              <label for="amount">amount</label>
+              <input type="number" class="form-control"/><br>
+              <label for="firstname">firstname</label>
+              <input type="text" class="form-control"/><br>
+              <label for="lastname">lastname</label>
+              <input type="text" class="form-control"><br>
+              <button type="submit" value="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+            </form>
+        </div>
+        <div class="col-3"></div>
+    </div>
+   
+  </body>
+</html>
